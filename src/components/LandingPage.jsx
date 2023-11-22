@@ -7,9 +7,14 @@ import SkateCarr from './SkateCarr'
 import SlideButtons from './SlideButtons'
 
 const LandingPage = () => {
-    return(
+    return (
         <div>
-
+            <NavBar />
+            <SlideButtons />
+            <SkateCarr />
+            <ShoesCarr />
+            <BlogCarr />
+            <Footer />
         </div>
 
     )
