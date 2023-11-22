@@ -9,7 +9,8 @@ function App() {
 
   return (
     <>
-      <h1>FURTIVOS CERDITOS</h1>
+      
+      <LandingPage/>
     </>
   )
 }
