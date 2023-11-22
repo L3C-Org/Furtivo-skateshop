@@ -1,10 +1,10 @@
 import './landingpage.css'
-import BlogCarr from './components/BlogCarr'
-import Footer from './components/Footer'
-import NavBar from './components/NavBar'
-import ShoesCarr from './components/ShoesCarr'
-import SkateCarr from './components/SkateCarr'
-import SlideButtons from './components/SlideButtons'
+import BlogCarr from './BlogCarr'
+import Footer from './Footer'
+import NavBar from './NavBar'
+import ShoesCarr from './ShoesCarr'
+import SkateCarr from './SkateCarr'
+import SlideButtons from './SlideButtons'
 
 const LandingPage = () => {
     return(
