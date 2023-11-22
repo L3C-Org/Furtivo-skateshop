@@ -1,10 +1,5 @@
 import { useState } from 'react'
-import BlogCarr from './components/BlogCarr'
-import Footer from './components/Footer'
-import NavBar from './components/NavBar'
-import ShoesCarr from './components/ShoesCarr'
-import SkateCarr from './components/SkateCarr'
-import SlideButtons from './components/SlideButtons'
+import LandingPage from './components/LandingPage'
 
 
 import './App.css'
