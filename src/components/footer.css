@@ -1,0 +1,22 @@
+.footer-container{
+    height: 100px;
+    width: 100%;
+    background-color: #332C2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    color: white;
+    display: flex;
+    gap: 1rem;
+}
+
+.info{
+text-align:right
+}
+
+.f-logo{
+    width:6rem;
+}
