@@ -5,6 +5,7 @@ import NavBar from './NavBar'
 import ShoesCarr from './ShoesCarr'
 import SkateCarr from './SkateCarr'
 import SlideButtons from './SlideButtons'
+import SkatePage from './SkatePage'
 
 const LandingPage = () => {
     return (
@@ -14,6 +15,7 @@ const LandingPage = () => {
             <SkateCarr />
             <ShoesCarr />
             <BlogCarr />
+            <SkatePage />
             <Footer />
         </div>
 

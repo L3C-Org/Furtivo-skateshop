@@ -12,38 +12,38 @@ const SkateCarr = () => {
     ];
 
     return (
-            <section>
-            <h2>latasted shoes</h2>
+        <section>
+            <h2>LATEST REISSUES</h2>
             <div className="container">
-        <Slide>
-            <div className="each-slide-effect">
-                <div className='img-slide-skate' style={{ 'backgroundImage': `url(${skates[0]})` }}>
-                </div>
-                    <p>TITLE</p>
-                    <p>PRICE</p>
+                <Slide>
+                    <div className="each-slide-effect">
+                        <div className='img-slide-skate' style={{ 'backgroundImage': `url(${skates[0]})` }}>
+                        </div>
+                        <p className='title'>TITLE</p>
+                        <p className='price'>PRICE</p>
+                    </div>
+                    <div className="each-slide-effect">
+                        <div className='img-slide-skate' style={{ 'backgroundImage': `url(${skates[1]})` }}>
+                        </div>
+                        <p className='title'>TITLE</p>
+                        <p className='price'>PRICE</p>
+                    </div>
+                    <div className="each-slide-effect">
+                        <div className='img-slide-skate' style={{ 'backgroundImage': `url(${skates[2]})` }}>
+                        </div>
+                        <p className='title'>TITLE</p>
+                        <p className='price'>PRICE</p>
+                    </div>
+                    <div className="each-slide-effect">
+                        <div className='img-slide-skate' style={{ 'backgroundImage': `url(${skates[3]})` }}>
+
+                        </div>
+                        <p className='title'>TITLE</p>
+                        <p className='price'>PRICE</p>
+                    </div>
+                </Slide>
             </div>
-            <div className="each-slide-effect">
-                <div className='img-slide-skate' style={{ 'backgroundImage': `url(${skates[1]})` }}>
-                </div>
-                <p>TITLE</p>
-                    <p>PRICE</p>
-            </div>
-            <div className="each-slide-effect">
-                <div className='img-slide-skate' style={{ 'backgroundImage': `url(${skates[2]})` }}>
-            </div>  
-            <p>TITLE</p>
-                    <p>PRICE</p>    
-                </div>
-                <div className="each-slide-effect">
-                <div className='img-slide-skate' style={{ 'backgroundImage': `url(${skates[3]})` }}>
-                    
-                </div>
-                <p>TITLE</p>
-                    <p>PRICE</p>
-            </div>
-        </Slide>
-        </div>
-            </section>
+        </section>
     );
 }
 

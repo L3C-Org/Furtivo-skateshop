@@ -9,7 +9,7 @@ section{
 }
 .img-slide-skate{
     width: 100%;
-    position: relative;
+    border-radius: 50px;
 }
 .each-slide-effect{
     display: flex;
@@ -24,5 +24,20 @@ section{
     background-repeat: no-repeat;
     background-position: center center;
     height: 350px;
-    color: blue;
+  }
+  .react-slideshow-container .default-nav{
+    display: none;
+  }
+
+  /* SkatePage */
+.main{
+    display: flex;
+    margin-top: 30px;
 }
+  .container-page{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
