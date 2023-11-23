@@ -1,0 +1,30 @@
+@import "react-slideshow-image/dist/styles.css";
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 90%;
+}
+.img-slide-skate{
+    width: 100%;
+    position: relative;
+}
+.each-slide-effect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.each-slide-effect > .img-slide-skate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 350px;
+    color: blue;
+  }
+  
+  

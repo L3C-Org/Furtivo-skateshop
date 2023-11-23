@@ -1,10 +1,181 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:wght@300&family=Poppins:wght@200;400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-.nav-bar {
-    background-color: gray;
+
+#nav-bar {
+    background-color: #332C2B;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menuToggle {
+    display: block;
+    position: relative;
+
+    /*  z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none; */
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+.hamburguer-container {
+    padding: 15px;
+}
+
+#menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    height: 100vh;
+
+    background: #929292;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#nav-bar-logo {
+    width: 60px;
     height: 30px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+#menuToggle span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin-bottom: 3px;
+
+    position: relative;
+
+    background: #cdcdcd;
+    border-radius: 3px;
+
+    z-index: 2;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        background-color 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+    transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked~.hamburguer-container span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-5px, -6px);
+    background: #232323;
+}
+
+/*
+  * But let's hide the middle one.
+  */
+#menuToggle input:checked~.hamburguer-container:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+  * Ohyeah and the last one should go the other direction
+  */
+#menuToggle input:checked~.hamburguer-container:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu li
+{
+  margin-left: 70px;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+
+#side-menu-line{
+    height: 5px;
+    color: white;
+    
+    margin-right: 0px;
+}
+
+a #shopping-bag{
+    border-bottom: 5px solid white;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+#menuToggle a:hover{
+  color: tomato;
+}
+
+.nav-bar-to-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0px;
+}
+
+.nav-bar-to-left {
+    display: flex;
+}
+
+#nav-lang {
+    color: rgb(155, 155, 155);
+    margin-top: 15px;
 }
