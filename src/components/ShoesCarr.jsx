@@ -3,8 +3,8 @@ import './shoescarr.css'
 const ShoesCarr = () => {
     return(
         <div>
-            <h2>teste</h2>
-            <h3>teste</h3>
+            <h2></h2>
+            <h3></h3>
         </div>
 
     )
