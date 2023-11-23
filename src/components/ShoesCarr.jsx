@@ -5,7 +5,6 @@ import './shoescarr.css'
 
 const ShoesCarr = () => {
 
-    return(
       
 
     const images = [
