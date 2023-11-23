@@ -4,6 +4,7 @@ import 'react-slideshow-image/dist/styles.css';
 import './shoescarr.css'
 
 const ShoesCarr = () => {
+
     const images = [
         "public/img/Landing-Page/img_shoes_1.jpg",
         "public/img/Landing-Page/img_shoes_2.jpg",
@@ -44,6 +45,7 @@ const ShoesCarr = () => {
                 </Slide>
             </div>
         </section>
+
     );
 };
 export default ShoesCarr;

@@ -1,0 +1,40 @@
+@import "react-slideshow-image/dist/styles.css";
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+}
+
+.img-slide-blog {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.each-slide-effect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.each-slide-effect>.img-slide-blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 350px;
+    color: blue;
+}
+
+.blog-container{
+display: flex;
+flex-direction: column;
+text-align: center;
+margin-top: 30px;
+}
