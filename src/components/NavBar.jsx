@@ -1,6 +1,7 @@
 import './navbar.css'
 
 const NavBar = () => {
+    
     return (
         <div>
             <nav id='nav-bar'>
@@ -8,18 +9,18 @@ const NavBar = () => {
                 <div id="menuToggle" className='nav-bar-to-left'>
                     <input type="checkbox" />
 
-                    <div className='hamburguer-container'>
+                    <div className='hamburguer-container' >
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
 
-                    <input type="checkbox" id='menuToggle' />
-                    <label htmlFor="menuToggle" id='menuToggleLabel'>
-
+                    <input type="checkbox" id='menuToggleX' name='menuToggleX'/>
+                    <label htmlFor="menuToggleX" id='menuToggleLabel'>
+                        X 
                     </label>
-                    <span id='exit-menu'>X</span>
+
                     <ul id="menu">
 
                         <a href="#"><li>Search</li></a>

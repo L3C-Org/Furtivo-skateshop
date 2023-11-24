@@ -19,23 +19,19 @@
 #menuToggle {
     display: block;
     position: relative;
-
     z-index: 1;
 
-    -webkit-user-select: none;
-
-
-    user-select: none;
-
 }
+
+
 
 #menuToggle input {
     display: block;
     width: 40px;
     height: 32px;
     position: absolute;
-    top: -7px;
-    left: -5px;
+    top: -2px;
+    left: -2px;
 
     cursor: pointer;
 
@@ -49,13 +45,29 @@
 
 .hamburguer-container {
     padding: 15px;
+    z-index: 5;
+    margin-top: 2px;
+    margin-left: 3px;
 
 }
+.hamburguer-container span{
+    height: 2px;
+    width: 25px;
+    color: #ffffff;
+    background-color: #ffffff;
+    display: block;
+    margin-bottom: 3px;
+    border-radius: 2px;
+   
+
+}
+
+
 
 #menu {
     position: absolute;
     width: 380px;
-    margin: -30px 0 0 -20px;
+    margin: -52px 0 0 -20px;
     padding-top: 70px;
     
     height: 100vh;
@@ -71,19 +83,20 @@
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 }
 
-#menu ul{
-    padding-top: 70px;
-}
+
 
 /* #menuToggle input:checked~.hamburguer-container {
     opacity: 0;
 } */
 
 #nav-bar-logo {
-    width: 60px;
-    height: 30px;
-    margin-top: 10px;
-    margin-right: 100px;
+    width: 50px;
+    height: 25px;
+    margin-top: 12px;
+    margin-right: 110px;
+}
+.nav-bar-to-right{
+    margin-right: 5px;
 }
 
 #exit-menu {
@@ -98,6 +111,7 @@
     background-color: #232323;
     text-align: center;
     border-radius: 20px;
+    /* display: none; */
     
     
     /* margin-bottom: 5px;
@@ -109,25 +123,25 @@
         opacity 0.55s ease; */
 }
 
-#menuToggle:checked+#menuToggleLabel #exit-menu {
+/* #menuToggle:checked+#menuToggleLabel #exit-menu {
     opacity: 1;
     
     background: #232323;
-}
+} */
 
 #side-menu-line {
     display: block;
     margin-bottom: 3px;
     margin-left: 70px;
     position: relative;
-    height: 3px;
+    height: 4px;
     color: white;
-    margin-left: 180px;
-    width: 140px;
+    margin-left: 150px;
+    width: 230px;
     margin-bottom: 40px;
-    margin-top: 30px;
-    background: #cdcdcd;
-    border-radius: 3px;
+    margin-top: 40px;
+    background: #ffffff;
+    border-radius: 1px;
 
     z-index: 2;
 
@@ -174,15 +188,68 @@
 } */
 
 
-
-
 #menu li {
     margin-left: 120px;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     margin-bottom: 30px;
     font-weight: 800;
 }
+
+#menuToggleLabel {
+    cursor: pointer; /* Add a pointer cursor to indicate clickability */
+    position: absolute;
+    margin-left: 20px; /* Adjust as needed */
+    z-index: 2;
+    font-size: 25px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+    background-color: #232323;
+    text-align: center;
+    border-radius: 20px;
+    display: none;
+}
+ 
+
+
+
+
+
+#menuToggle:checked ~ #menuToggleX {
+    /* Add styles for the checked state */
+    opacity: 1;
+    background: #232323;
+    display: block;    
+    
+}
+#menuToggle input:checked ~ #menuToggleLabel {
+    /* Add styles for the checked state */
+    opacity: 1;
+    background: #232323;
+    display: block;   
+    cursor: pointer; /* Add a pointer cursor to indicate clickability */
+    position: absolute;
+    margin-left: 20px; /* Adjust as needed */
+    z-index: 2;
+    font-size: 25px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+    background-color: #232323;
+    text-align: center;
+    border-radius: 20px; 
+    
+}
+
+ #menuToggleLabel:checked{ 
+    background: #232323;
+    display: block;
+}
+
+
 
 /*
  * And let's slide it in from the left
@@ -191,10 +258,20 @@
     transform: none;
 }
 
-#menuToggle a {
-    text-decoration: none;
-    color: #232323;
 
+#menu a li{
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+#menu a li:hover{
+    text-decoration: none;
+    color: tomato;
+    transition: color 0.3s ease;
+}
+#menu a {
+    text-decoration: none;
+    color: #ffffff;
     transition: color 0.3s ease;
 }
 
