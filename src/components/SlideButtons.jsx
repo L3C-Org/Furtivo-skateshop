@@ -20,7 +20,7 @@ const handleClick = () =>{
 
     return (
         <div id='buttons-hero-container'>
-            <Slide>
+           
                 <div id='slide-buttons-container'>
                     <button id='slide-button'>SKATE</button>
                     <button id='slide-button'>CLOTHES</button>
@@ -29,7 +29,7 @@ const handleClick = () =>{
                     <button id='slide-button'>BRANDS</button>
 
                 </div>
-            </Slide>
+            
             
                 <div id='hero-container'>
                     <div onClick={handleClick}

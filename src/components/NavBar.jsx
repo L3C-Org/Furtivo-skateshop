@@ -15,19 +15,19 @@ const NavBar = () => {
                         <span></span>
                     </div>
 
+                    <input type="checkbox" id='menuToggle' />
+                    <label htmlFor="menuToggle" id='menuToggleLabel'>
 
+                    </label>
+                    <span id='exit-menu'>X</span>
                     <ul id="menu">
-                        <input type="checkbox" id='menuToggle' />
-                        <label htmlFor="menuToggle" id='menuToggleLabel'>
 
-                        </label>
-                        <span id='exit-menu'>X</span>
                         <a href="#"><li>Search</li></a>
                         <a href="#"><li>Blog</li></a>
                         <a href="#"><li>Profile</li></a>
                         <a id='shopping-bag' href="#"><li>Shopping Bag</li></a>
                         <span id='side-menu-line'></span>
-                        <a href="#"><li>Skate</li></a>
+                        <a href="#"><li id='skate-menu'>Skate</li></a>
                         <a href="#"><li>Clothes</li></a>
                         <a href="#"><li>Reissues</li></a>
                         <a href="#"><li>Brands</li></a>
