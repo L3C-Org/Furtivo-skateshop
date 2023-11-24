@@ -4,9 +4,9 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image';
 const BlogCarr = () => {
     const Blog = [
-        "public/img/Landing-Page/img_blog_1.webp",
-        "public/img/Landing-Page/img_blog_2.webp",
-        "public/img/Landing-Page/img_blog_3.webp",
+        "/img/Landing-Page/img_blog_1.webp",
+        "/img/Landing-Page/img_blog_2.webp",
+        "/img/Landing-Page/img_blog_3.webp",
     ];
     return (
         <div className='blog-container'>
