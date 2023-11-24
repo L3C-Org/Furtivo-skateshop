@@ -14,33 +14,34 @@ const ShoesCarr = () => {
 
     return (
         <section>
-            <h2>LATEST SHOES</h2>
+            <h2 className='title'>LATEST SHOES</h2>
             <div className="container">
                 <Slide>
                     <div className="each-slide-effect">
                         <div className='img-slide' style={{ 'backgroundImage': `url(${images[0]})` }}>
                         </div>
-                        <p>TITLE</p>
-                        <p>PRICE</p>
+                        <p className='sub-title'>éS Creager Masculino black-grey </p>
+                        <p className='description-price'>125,99 &euro;</p>
                     </div>
                     <div className="each-slide-effect">
                         <div className='img-slide' style={{ 'backgroundImage': `url(${images[1]})` }}>
                         </div>
-                        <p>TITLE</p>
-                        <p>PRICE</p>
+                        <p className='sub-title'>ÉS X VIREO CHOMP ON KICKS TRIBO ZAPATILLA (WHITE BLACK YELLOW)</p>
+                        <p className='description-price'>123,99 &euro;</p>
                     </div>
                     <div className="each-slide-effect">
                         <div className='img-slide' style={{ 'backgroundImage': `url(${images[2]})` }}>
                         </div>
-                        <p>TITLE</p>
-                        <p>PRICE</p>
+                        <p className='sub-title'>ETNIES Marana x Michelin Black black skateboarding shoes</p>
+                        <p className='description-price'>98,90 &euro;</p>
                     </div>
                     <div className="each-slide-effect">
                         <div className='img-slide' style={{ 'backgroundImage': `url(${images[3]})` }}>
 
                         </div>
-                        <p>TITLE</p>
-                        <p>PRICE</p>
+                        <p className='sub-title'>Etnies Windrow Vulc Mid G/W</p>
+                        <p className='description-price'>90,00 &euro;</p>
+
                     </div>
                 </Slide>
             </div>
