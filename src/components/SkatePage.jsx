@@ -5,13 +5,13 @@ import './skatecarr.css'
 /* css is on SKATECARR.CSS */
 const SkateCarr = () => {
     const skates = [
-        "public/img/Landing-Page/img_skate_1.webp",
-        "public/img/Product-Page/img_product_2.jpg",
-        "public/img/Product-Page/img_product_3.jpg",
-        "public/img/Product-Page/img_extras_1.jpg",
-        "public/img/Product-Page/img_extras_2.webp",
-        "public/img/Product-Page/img_extras_3.jpg",
-        "public/img/Product-Page/img_extras_4.jpg",
+        "/img/Landing-Page/img_skate_1.webp",
+        "/img/Product-Page/img_product_2.jpg",
+        "/img/Product-Page/img_product_3.jpg",
+        "/img/Product-Page/img_extras_1.jpg",
+        "/img/Product-Page/img_extras_2.webp",
+        "/img/Product-Page/img_extras_3.jpg",
+        "/img/Product-Page/img_extras_4.jpg",
     ];
 
     return (
