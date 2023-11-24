@@ -5,10 +5,10 @@ import './skatecarr.css'
 
 const SkateCarr = () => {
     const skates = [
-        "public/img/Landing-Page/img_skate_1.webp",
-        "public/img/Landing-Page/img_skate_2.webp",
-        "public/img/Landing-Page/img_skate_3.webp",
-        "public/img/Landing-Page/img_skate_4.webp",
+        "/img/Landing-Page/img_skate_1.webp",
+        "/img/Landing-Page/img_skate_2.webp",
+        "/img/Landing-Page/img_skate_3.webp",
+        "/img/Landing-Page/img_skate_4.webp",
     ];
 
     return (

@@ -6,10 +6,10 @@ import './shoescarr.css'
 const ShoesCarr = () => {
 
     const images = [
-        "public/img/Landing-Page/img_shoes_1.jpg",
-        "public/img/Landing-Page/img_shoes_2.jpg",
-        "public/img/Landing-Page/img_shoes_3.jpg",
-        "public/img/Landing-Page/img_shoes_4.jpg",
+        "/img/Landing-Page/img_shoes_1.jpg",
+        "/img/Landing-Page/img_shoes_2.jpg",
+        "/img/Landing-Page/img_shoes_3.jpg",
+        "/img/Landing-Page/img_shoes_4.jpg",
     ];
 
     return (
