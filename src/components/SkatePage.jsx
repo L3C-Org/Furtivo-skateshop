@@ -27,9 +27,11 @@ const SkateCarr = () => {
                     <h3>MISFITS Santa Monica Airlines Natas evil cat candy reissue</h3>
                     <p>110,00 €</p>
                     <div className="buy">
-                        <button id="slide-button">Add to cart</button>
+                        <button id="buy-button">Add to cart</button>
                         <input type="number" placeholder='1' />
-                        <span>ICON BIN</span>
+
+                        <img id='trash' src="./img/_Icons/Size = S, Color = Black, Icon = Trash.png" alt="" />
+
                     </div>
                     <div className="description">
                         <h4><span className='bold'>Marca:</span>Stereo Skateboards</h4>

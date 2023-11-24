@@ -241,6 +241,7 @@
     background-color: #232323;
     text-align: center;
     border-radius: 20px; 
+    transition: color 0.3s ease;
     
 }
 

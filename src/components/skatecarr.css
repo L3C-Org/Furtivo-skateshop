@@ -29,6 +29,12 @@ section{
     display: none;
   }
 
+.may-you-like{
+  margin: 10px 0;
+}
+  .description{
+    margin-top: 10px;
+  }
   /* SkatePage */
 .main{
     display: flex;
@@ -39,5 +45,26 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+ .buy{
+  position: relative
+ }
+
+  #buy-button{
+    border: 0px;
+    height: 50px;
+    min-width: 120px; /* Set a minimum width for the buttons */
+    color: white;
+    background-color: #E83323;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  #trash{
+    position: absolute;
+    top: 5px
   }
 
