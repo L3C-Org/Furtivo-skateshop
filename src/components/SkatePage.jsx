@@ -49,8 +49,8 @@ const SkateCarr = () => {
                             <div className="each-slide-effect">
                                 <div className='img-slide-skate' style={{ 'backgroundImage': `url(${skates[3]})` }}>
                                 </div>
-                                <p className='sub-title'>TITLE</p>
-                                <p className='description-price'>PRICE</p>
+                                <p className='sub-title'>POWELL PERALTA CABALLERO '97</p>
+                                <p className='description-price'>110,00 &euro</p>
                             </div>
 
                             <div className="each-slide-effect">
