@@ -6,7 +6,18 @@
     justify-content: center;
     flex-direction: column;
 }
+.teste{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
 .each-slide-effect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0 40px;
 }
 .img-slide{
@@ -26,10 +37,36 @@
 }
 .sub-title{
     color: #151212;
+    text-align: center;
+    margin: .5rem 0;
     font-size: 16px;
 }
 .description-price{
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 800;
+    color: orangered;
+    cursor: pointer;
+}
+
+.description-blog{
+    width: 270px;
+    font-size: 13px;
     font-weight: 400;
     color: #151212;
+}
+
+
+@media(max-width:900px){
+    .sub-title{
+        font-size: 15px;
+    }
+    .description-price{
+        font-size: 16px;
+
+    }
+}
+@media(max-width:700px){
+    .sub-title{
+        font-size: 13px;
+    }
 }

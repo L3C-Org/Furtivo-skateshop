@@ -8,7 +8,7 @@ const NavBar = () => {
             <div className='menu-logo'>
             <i class="fa-solid fa-bars"></i>
             <div className="logo-nav">
-
+                <img src="../public/img/_Logo/Size = L, Variant = Small.png" alt="" srcset="" />
             <a href="#"></a>
             </div>
             </div>

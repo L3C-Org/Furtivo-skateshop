@@ -19,14 +19,16 @@
 }
 
 .hero-container {
+    height: 800px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .hero-slide {
-    height: 440px;
-    width: 330px;
+    height: 100%;
+    width: 100%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,3 +46,15 @@
 .text-h2{
     margin-bottom: 10px;
 } 
+@media(max-width:900px){
+    
+}
+@media(max-width:700px){
+    .hero-container {
+        height: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

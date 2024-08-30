@@ -15,26 +15,44 @@
     color: #CECDC9;
 }
 .btn-icon{
-    width: 40%;
+    width: 20%;
+    height: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     color: #CECDC9;
 }
 .fa-globe{
-    color: #FFFAEE;
+    margin-right: 1rem;
 }
 .logo-nav{
-    background-image: url(/img/_Logo/Size\ =\ L\,\ Variant\ =\ Small.png);
+    height: 100%;
+/*      background-image: url(/img/_Logo/Size\ =\ L\,\ Variant\ =\ Small.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 40px;
-    height: 30px;
+    height: 30px; */
+}
+.logo-nav > img{
+    height: 40px;
+    
+}
+@media(max-width:900px){
+    .btn-icon{
+        width: 25%;
+    }
+    .logo-nav > img{
+        height: 30px;
+    }
 }
 @media(max-width:700px){
     .menu-logo{
         width: 10%;
     }
-    .logo-nav{
-        
+    .btn-icon{
+        width: 30%;
+    }
+    .logo-nav > img{
+        height: 20px;
     }
 }
