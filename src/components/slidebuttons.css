@@ -1,56 +1,46 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-#slide-buttons-container {
-    margin-bottom: 0px;
-    margin-top: 10px;
-    margin-left: 10px;
-    
-    overflow-x: scroll; /* Enable horizontal scrolling */
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
-    padding: 5px; 
-    border: 0px;
-}
-
-#slide-button {
-    border: 0px;
-    height: 60px;
-    min-width: 120px; /* Set a minimum width for the buttons */
-    color: white;
-    background-color: #E83323;
-    border-radius: 8px;
-    font-size: 16px;
-    margin-right: 10px;
-
-}
-
-#hero-container {
-    height: 600px;
-    
-
-    padding: 15px;
-
-}
-
-
-.hero-slide {
+.header-container{
+    padding-bottom: 16px;
     width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    border-radius: 20px;
-    transition: background-image 300ms ease-in-out;
+}
+.slide-buttons-container {
+    padding: 16px 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-red {
+    background-color: #E83323;
+    color: #FFFAEE;
+    border-radius: 8px;
+    padding: 10px 18px;
+    border: none;
+    margin: 0 4px;
+}
+
+.hero-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#hero-text {
-    text-align: center;
-    color: white;
+.hero-slide {
+    height: 440px;
+    width: 330px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.80);
 }
+.hero-text{
+    font-size: 17px;
+    color: #FFFAEE;
+    font-weight: 700;
+}
+.text-h2{
+    margin-bottom: 10px;
+} 

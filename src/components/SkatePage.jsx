@@ -1,8 +1,7 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
+import { Link } from 'react-router-dom';
 import 'react-slideshow-image/dist/styles.css';
-import './skatecarr.css'
-/* css is on SKATECARR.CSS */
 const SkateCarr = () => {
     const skates = [
         "/img/Landing-Page/img_skate_1.webp",
